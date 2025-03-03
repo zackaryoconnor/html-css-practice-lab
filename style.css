@@ -1,0 +1,143 @@
+:root {
+    font-family: sans-serif;
+    --cardMargin: 46px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    margin: 46px;
+    background-color: rgb(230, 230, 230);
+}
+
+.see-more-buttons button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    margin-right: 46px;
+}
+
+.primary-button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.secondary-button {
+    background: none;
+    color: black;
+    border: 1px solid black;
+}
+
+.card button {
+    border: none;
+    background-color: white;
+}
+
+.cards-container {
+    margin-top: 46px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card1 {
+    background-color: white;
+    margin-right: var(--cardMargin);
+    
+}
+
+.card1-content {
+    padding-left: 24px;
+}
+
+.card1 img {
+    width: 270px;
+    height: 270px;
+    background-color: black;
+}
+
+.card1 h3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.card1 button {
+    margin: 24px 0;    
+    font-size: 14px;
+    background: none;
+    border: none;
+}
+
+.card2 {
+    background-color: white;
+    margin-right: var(--cardMargin);   
+}
+
+.card2-content {
+    text-align: center;
+}
+
+.card2 img {
+    width: 54px;
+    height: 54px;
+    background-color: black;
+    margin-top: 29px;
+    margin-bottom: -16px;
+    border-radius: 100%;
+}
+
+.card2 h3 {
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: -8px;;
+}
+
+.card2 h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 36px;
+}
+
+.card2 p {
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, .5);
+}
+
+.card2 button {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 64px 46px 0 46px;
+}
+
+.card3 {
+    width: 270px;
+}
+
+.card3 img {
+    width: 270px;
+    height: 270px;
+    background-color: black;
+}
+
+.card3 h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card3 button {
+    font-size: 14px;
+    background: none;
+    border: none;   
+    padding: 0;
+    margin-top: 8px;;
+}
