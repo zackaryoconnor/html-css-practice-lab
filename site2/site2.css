@@ -1,0 +1,145 @@
+:root {
+    font-family: sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    font-size: 18px;
+}
+
+.navbar1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.navbar1 button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 32px;
+    border-radius: 5px;
+}
+
+.navbar2 {
+    margin-top: 24px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.navbar2 ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    overflow: hidden;
+    margin-right: 46px;
+    margin-left: auto;
+}
+
+.navbar2 button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 32px;
+    border-radius: 5px;
+}
+
+.navbar3 {
+    margin-top: 24px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.navbar3 .ul-left-elements {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    overflow: hidden;
+    margin-left: 46px;
+    margin-right: auto;
+}
+
+.navbar3 .ul-right-elements {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    overflow: hidden;
+    margin-right: 46px;
+    margin-left: auto;
+}
+
+.navbar3 button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 5px;
+}
+
+.navbar4 {
+    margin-top: 24px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.navbar4 h1 {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar4 ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    overflow: hidden;
+    margin-right: auto;
+}
+
+.navbar4 button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 5px;
+}
