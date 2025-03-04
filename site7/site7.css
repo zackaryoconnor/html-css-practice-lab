@@ -1,0 +1,108 @@
+:root {
+    font-family: sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: white;
+    margin-bottom: 32px;
+}
+
+.section1 {
+    max-width: 600px;
+    margin: 64px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section1 p {
+    margin: 32px;
+}
+
+.section1 button {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+}
+
+.section2 {
+    width: 100%;
+    max-width: 800px;
+    margin: 54px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.section2-text {
+    margin-right: 150px;
+}
+
+.section2 h1 {
+    margin-bottom: -12px;
+}
+
+.section2-buttons button {
+    width: 200px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.section2-buttons .contact-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 54px;
+}
+
+.section3 p {
+    margin-bottom: 24px;
+}
+
+.section3 input {
+    margin-bottom: 16px;
+    border: .5px solid black;
+    border-radius: 5px;
+    width: 360px;
+    height: 64px;
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+.section3 button {
+    font-size: 20px;
+    width: 360px;
+    height: 64px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
