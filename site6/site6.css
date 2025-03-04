@@ -1,0 +1,137 @@
+:root {
+    font-family: sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 36px;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-container2 {
+    display: inline-block;
+    width: 50vw;
+    margin: 86px;
+}
+
+.section1-container2 p {
+    margin: 32px 0;
+}
+
+.section1-container2 button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.section1-container1 {
+    background-color: black;
+    width: 50vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-container1 img {
+    width: 320px;
+    height: 360px;
+    background-color: white;
+    display: flex; 
+    border-radius: 8px;
+}
+
+.section2-container1 {
+    margin-right: 86px;
+    margin-left: 120px;
+}
+
+.section2-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:64px;
+}
+
+.section2-container1 li {
+    padding: 16px;
+}
+
+.section2-container1 img {
+    margin-right: 32px;
+    width: 480px;
+    height: 360px;
+    background-color: white;
+    display: flex; 
+    border-radius: 8px;
+}
+
+.section3-container2 {
+    display: inline-block;
+    width: 800px;
+    margin: 86px;
+}
+
+.section3-container2 p {
+    margin: 32px 0;
+}
+
+.section3-container2 {
+    width: 50vw;
+    margin: 86px;
+    max-width: 600px;
+}
+
+.contributer-quote {
+    color: gray;
+}
+
+.contributer {
+    margin-top: -46px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.section3-container2 img {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.section3-container1 {
+    width: 300px; 
+    height: 200px; 
+    /* overflow: hidden; */
+    position: relative; 
+    background-color: lightgray;
+}
+
+.section3-container1 img {
+    position: absolute; 
+    transform: translate(-25%, 25%); 
+    width: 300px; 
+    height: 200px;
+    background-color: black; 
+}
+
+
